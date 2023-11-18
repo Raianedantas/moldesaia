@@ -70,3 +70,14 @@ function evalInput(strInput) {
     // Retorna falso para evitar o envio do formulário
     return false;
     }
+function enviarValores() {
+            var alturaQuadrilValue = document.getElementsByName('inputField2')[0].value;
+            var cinturaValue = document.getElementsByName('inputField')[0].value;
+            var comprimentoTotalValue = document.getElementsByName('inputField3')[0].value;
+            var quadrilValue = document.getElementsByName('inputField1')[0].value;
+
+            evalInput2(alturaQuadrilValue);
+            evalInput(cinturaValue);
+            evalInput3(comprimentoTotalValue);
+            evalInput1(quadrilValue);
+}
